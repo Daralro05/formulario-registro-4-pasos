@@ -35,7 +35,7 @@ body {
 }
 .form-princ form .pagina {
   width: 25%;
-  transition: margin-left 0.3s ease-in-out;
+  transition: margin-left 0.3s ease-in-out; /*transición con inicio y final lento*/
 }
 .form-princ form .pagina .titulo {
   text-align: left;
@@ -170,9 +170,9 @@ form .pagina .btns button {
   font-size: 15px;
   transform: translate(-50%, -50%);
 }
-.progress-bar .paso .check .active {
-  display: block;
+.progress-bar .paso .active .check {
   color: white;
+  display: block;
 }
 /* pseudoelemento*/
 .progress-bar .paso .num:before,
